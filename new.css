@@ -367,4 +367,11 @@ font-size: 1.4em;
 	td,th { 
 text-align: center; 
 }
+	<style>
+.centrera {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 }
