@@ -141,6 +141,21 @@ nav a:hover
     font-size: 0.8em;
     
 }
+.bouton 
+
+{
+	background-color: #6a6767;
+	border: none;
+	color: white;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1rem;
+	margin: 2px 2 px;
+	border-radius: 1rem;
+	
+}
 
 .bouton_rouge
 {
