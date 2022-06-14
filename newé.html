@@ -6,6 +6,63 @@
            <title>SCAN NEXT-GEN</title>
 		   <link rel="icon" href="favicon.ico" />
 	    <meta="viewport" content="width=device-widht, user-scalable=yes" />
+		<style>
+      * {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+      body {
+        background: url("https://images.unsplash.com/photo-1532210317995-cc56d90177d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80") center;
+        background-size: cover;
+        min-height: 600px;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+      nav {
+        text-align: center;
+      }
+      .menu {
+        display: inline-block;
+      }
+      .menu > li  {
+        float: left;
+        color: #fefffb;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        font-size: 17px;
+      }
+      .sub-menu {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li {
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 8px 0;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menu li:last-child {
+        border-bottom: 0;
+      }
+      .sub-menu li:hover {
+        background: black;
+      }
+      .menu > li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menu > li:hover .sub-menu {
+        transform: scale(1);
+      }
+    </style>
     </head>
     
     <body>
@@ -41,14 +98,14 @@
 			
 				 <nav>
                     <ul>
-                        <li><a class="boutonh" href="#jajax">SAISON 2021-2022</a></li>
-                        <li><a class="boutonh" href="#">SAISON 2022-2023</a></li>
+                        <li><a class="menu" href="#jajax">SAISON 2021-2022</a></li>
+                        <li><a class="menu" href="#">SAISON 2022-2023</a></li>
                      
 				
 			
 					</ul>
                 </nav> 
-         
+         <br>
                <div id="jajax" > <h1> <b> Saison 2021-2022 </b> </h1> </div>	
 				<br>	
 				La saison démarre début Octobre par 3 matchs de début de saison qui se sont terminés par 3 victoires dont une Big Win de prestige face à l’ Elan Bearnais qui a permis à la Next-Gen de commencer sa poule de brassage le plus sereinement possible, poule où elle termina première invaincue avec encore une Big Win de 115 points , cette fois face à Saint-Jean de Luz.
@@ -84,14 +141,14 @@
 			<br> <img src="quart.png" alt="récap" />
 <footer>
               <div id="titre">
-                    <h1>Palmarès</h1>
+                    <h1>Palmarès</h1> <br>
 		
                     <p> Champion Challenge : 2019</p>
        <p> Vainqueur du trophée des Remparts : 2018 </p>        <p> Séries d’invincibilité en 38-0 : 2018-2022</p>
                 </div>
             
                 <div id="derb">
-                    <h1>Les Rivalités</h1>
+                    <h1>Les Rivalités</h1> <br>
                     <div id="listes">
                         <ul>
                             <li><a href="https://francecorruption.fr/tag/64-pyrenees-atlantiques/"target="_blank" >US Orthez</a></li>
