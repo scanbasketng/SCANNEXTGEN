@@ -514,11 +514,55 @@ text-align: center;
       .menux > li:hover .sub-menu {
         transform: scale(1);
       }
+.button2 {
+        display: inline-block;
+        background-color: #30a415;
+        border-radius: 10px;
+        border: 1px double #162c0c;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 12px;
+        padding: 12px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 2px;
+		text-decoration:none;
+      }
+ .button2 span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      .button2 span:after {
+        content: "\00bb";
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      .button2:hover {
+        background-color: #0c280a;
+      }
+      .button2:hover span {
+        padding-right: 25px;
+      }
+      .button2:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+	 .button2 nav a:hover
+{
+    color: #1f5c08;
+    border-bottom: 3px solid #1f5c08;
+}
 .button {
         display: inline-block;
         background-color: #30a415;
         border-radius: 10px;
-        border: 4px double #cccccc;
+        border: 1px double #162c0c;
         color: #eeeeee;
         text-align: center;
         font-size: 12px;
@@ -527,6 +571,7 @@ text-align: center;
         transition: all 0.5s;
         cursor: pointer;
         margin: 2px;
+		text-decoration:none;
       }
  .button span {
         cursor: pointer;
@@ -543,7 +588,7 @@ text-align: center;
         transition: 0.5s;
       }
       .button:hover {
-        background-color: #162c0c;
+        background-color: #0c280a;
       }
       .button:hover span {
         padding-right: 25px;
@@ -552,3 +597,8 @@ text-align: center;
         opacity: 1;
         right: 0;
       }
+	 .button nav a:hover
+{
+    color: #1f5c08;
+    border-bottom: 3px solid #1f5c08;
+}
