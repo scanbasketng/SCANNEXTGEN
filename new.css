@@ -543,7 +543,7 @@ text-align: center;
         transition: 0.5s;
       }
       .button:hover {
-        background-color: #f7c2f9;
+        background-color: #162c0c;
       }
       .button:hover span {
         padding-right: 25px;
