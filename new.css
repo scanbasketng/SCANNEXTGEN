@@ -141,19 +141,31 @@ nav a:hover
     font-size: 0.8em;
     
 }
+   .menu {
+        display: inline-block;
+      }
+      .menu > li  {
+        float: left;
+        color: #fefffb;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+	  font-size: 17px; }
 .bouton 
 
 {
 	background-color: #6a6767;
 	border: none;
 	color: white;
-	padding: 1rem;
+	padding: 250 px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 1rem;
-	margin: 4px 2 px;
-	border-radius: 2rem;
+	font-size: 200 px;
+	margin: 6px 4 px;
+	border-radius: 0rem;
 	
 }
 .boutonx
@@ -407,13 +419,37 @@ text-underline-position: auto;
 	font-size: 1.15em;
 	    font-family:sans-serif;
 }
-
+.sub-menu
+{
+	display: none;
+	
+	
+}
+li:hover .sub-menu
+{ display: inside-block;background-color: #6a6767;
+	border: none;
+	color: white;
+	padding: 200 px;
+	text-align: left;
+	text-decoration: none;
+	display: block;
+	font-size: 250 px;
+	margin: 4px 2 px;
+	border-radius: 0rem; }
+	.submenu
+{
+	display: none; 
+	
+	
+}
+li:hover .submenu
+{ display: block; }
 #j
 {
-	font-family:sans-serif;
+	font-family:sans-s
+font-size: 1.4em;erif;
 	
 font-weight:bold;
-font-size: 1.4em;
 }
 
 #tyy
@@ -430,3 +466,51 @@ text-align: center;
 </style>
 }
 *
+ #quoii {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        box-sizing: border-box;
+      }
+    
+    
+      .menux {
+        display: inline-block;
+      }
+      .menux > li {
+        float: left;
+        color: #e298e1;
+        width: 140px;
+        height: 40px;
+        line-height: 40px;
+        background: rgba(0, 0, 0, 0.7);
+        cursor: pointer;
+        font-size: 17px;
+      }
+      .sub-menux {
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menux li {
+        font-size: 14px;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 8px 0;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        transform: scale(0);
+        transform-origin: top center;
+        transition: all 300ms ease-in-out;
+      }
+      .sub-menux li:last-child {
+        border-bottom: 0;
+      }
+      .sub-menux li:hover {
+        background: black;
+      }
+      .menux > li:hover .sub-menu li {
+        transform: scale(1);
+      }
+      .menux > li:hover .sub-menu {
+        transform: scale(1);
+      }
