@@ -382,7 +382,7 @@ footer h1
 
 body{
   margin: 20px;
-  background: #eeeeee;
+  background: #1CAE59;
   font-size: small;
   font-family: "Tahoma", Arial, sans-serif;
   text-align: left;
@@ -416,6 +416,10 @@ text-underline-position: auto;
 }
 
 #ja{
+	font-size: 1.15em;
+	    font-family:sans-serif;
+}
+#jazz{
 	font-size: 1.15em;
 	    font-family:sans-serif;
 }
