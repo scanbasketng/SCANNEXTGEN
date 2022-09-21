@@ -29,6 +29,11 @@ body
 
 /* Avant Banniere */
 
+#ett
+{
+
+vertical-align: middle }
+
 header
 {
 	
@@ -41,12 +46,13 @@ header
 {
     display: flex;
     flex-direction: column;
+	
 }
 #logo
 {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
 }
 #logo img
 {
@@ -69,6 +75,13 @@ header h2
     font-weight: normal;
 }
 
+#titre{
+	
+
+font-family:Bookman Old Style, Book Antiqua, Garamond;
+font-size=4pt;
+
+}
 /* Navigation */
 
  /* Navigation bar styling */
